@@ -202,3 +202,5 @@ export function Register() {
     </div>
   );
 }
+
+export { Register }

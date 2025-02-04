@@ -55,7 +55,7 @@ export function Home() {
       <div 
         className="relative min-h-[600px] flex items-center -mt-8 px-4"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1530983822321-fcac2d3c0f06?auto=format&fit=crop&q=80&w=2000')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&q=80&w=2000')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundAttachment: 'fixed'
