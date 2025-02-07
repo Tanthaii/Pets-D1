@@ -1,0 +1,39 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo" class="page">
+    <ActionBar title="Pest Detection" class="action-bar">
+        <NavigationButton></NavigationButton>
+    </ActionBar>
+
+    <ScrollView>
+        <StackLayout padding="16">
+            <Label text="Upload an image of an insect or pest for instant identification" textWrap="true" style="text-align: center;" />
+            
+            <!-- Image Preview -->
+            <Image src="{{ previewImage }}" height="300" stretch="aspectFit" visibility="{{ previewImage ? 'visible' : 'collapsed' }}" margin="16 0" />
+            
+            <!-- Upload Buttons -->
+            <GridLayout rows="auto" columns="*, *" margin="16 0">
+                <Button text="Take Photo" tap="{{ onTakePhoto }}" class="btn-primary" col="0" margin="0 8 0 0" />
+                <Button text="Choose Photo" tap="{{ onChoosePhoto }}" class="btn-primary" col="1" margin="0 0 0 8" />
+            </GridLayout>
+
+            <!-- Detection Result -->
+            <StackLayout class="card" visibility="{{ detectionResult ? 'visible' : 'collapsed' }}">
+                <Label text="Detection Result" class="h2" />
+                <Label text="{{ 'Pest: ' + detectionResult.pest_name }}" class="body" />
+                <Label text="{{ 'Confidence: ' + (detectionResult.confidence * 100).toFixed(1) + '%' }}" class="body" />
+            </StackLayout>
+
+            <!-- History -->
+            <Label text="Detection History" class="h2" margin="16 0" />
+            <ListView items="{{ detectionHistory }}" height="300">
+                <ListView.itemTemplate>
+                    <StackLayout class="card">
+                        <Label text="{{ pest_name }}" class="body" />
+                        <Label text="{{ 'Confidence: ' + (confidence * 100).toFixed(1) + '%' }}" class="body" />
+                        <Label text="{{ created_at }}" class="body" style="font-size: 12;" />
+                    </StackLayout>
+                </ListView.itemTemplate>
+            </ListView>
+        </StackLayout>
+    </ScrollView>
+</Page>
