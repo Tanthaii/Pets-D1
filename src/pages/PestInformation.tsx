@@ -22,7 +22,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Weevil',
     scientific_name: 'Sitophilus oryzae',
     description: 'A major stored grain pest that attacks rice, wheat, and other cereals. Adult weevils bore into stored grains to lay eggs, while larvae develop inside, causing significant post-harvest losses.',
-    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Yellow+Rice+Borer.png?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Sitophilus.oryzae.7438.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Beetle',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -32,7 +32,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Wasp',
     scientific_name: 'Anagrus spp.',
     description: 'While most wasps in rice fields are beneficial as natural enemies of pest insects, some species can damage rice plants. They are important in the ecosystem balance.',
-    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Yellow+Rice+Borer.png?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/common-wasp-hero.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Wasp',
     threat_level: 'Low',
     created_at: new Date().toISOString()
@@ -42,7 +42,7 @@ const mockPests: Pest[] = [
     common_name: 'Golden Apple Snail',
     scientific_name: 'Pomacea canaliculata',
     description: 'An invasive species that feeds on young rice seedlings, causing significant damage in wetland rice. They can destroy newly transplanted rice fields within days.',
-    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Yellow+Rice+Borer.png',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/apple-snail-adult-600x400-172906.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Snail',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -52,7 +52,7 @@ const mockPests: Pest[] = [
     common_name: 'Small Brown Planthopper',
     scientific_name: 'Laodelphax striatellus',
     description: 'Smaller than the brown planthopper but equally damaging. They transmit viral diseases and cause direct feeding damage to rice plants.',
-    image_url: 'https://images.unsplash.com/photo-1616690248364-58e5326dea56?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/brown-planthopper.png?auto=format&fit=crop&q=80&w=800',
     category: 'Bug',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -62,7 +62,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Slug',
     scientific_name: 'Deroceras reticulatum',
     description: 'These mollusks feed on rice seedlings and young plants, particularly in wet conditions. They are most active at night and leave slime trails.',
-    image_url: 'https://images.unsplash.com/photo-1515169273894-7e876dcf13da?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/3620110301_e0bd427e3e_c.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Slug',
     threat_level: 'Medium',
     created_at: new Date().toISOString()
@@ -72,7 +72,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Leafhopper',
     scientific_name: 'Nephotettix spp.',
     description: 'Both nymphs and adults suck plant sap from leaves and leaf sheaths. They are important vectors of viral diseases like rice tungro disease.',
-    image_url: 'https://images.unsplash.com/photo-1572539280469-9c738c59964d?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Green+Rice+Leafhopper.png?auto=format&fit=crop&q=80&w=800',
     category: 'Bug',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -82,7 +82,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Leaf Roller',
     scientific_name: 'Cnaphalocrocis medinalis',
     description: 'The larvae fold rice leaves longitudinally and feed inside the fold, reducing photosynthetic area. Heavy infestations can cause significant yield loss.',
-    image_url: 'https://images.unsplash.com/photo-1563482776068-4dac10f9373d?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/rice+leaffolder.png?auto=format&fit=crop&q=80&w=800',
     category: 'Moth',
     threat_level: 'Medium',
     created_at: new Date().toISOString()
@@ -92,7 +92,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Gall Midge',
     scientific_name: 'Orseolia oryzae',
     description: 'The larvae cause the rice tillers to form a tubular gall called "silver shoot" or "onion shoot", preventing panicle formation. Severely affected fields show stunted growth.',
-    image_url: 'https://images.unsplash.com/photo-1558015244-6bdea8ef48ca?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/gall+midge.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Fly',
     threat_level: 'Medium',
     created_at: new Date().toISOString()
@@ -102,7 +102,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Moth',
     scientific_name: 'Corcyra cephalonica',
     description: 'A serious pest of stored rice and other grains. Larvae feed on grain kernels and create webbing that can bind kernels together.',
-    image_url: 'https://images.unsplash.com/photo-1562911791-c7a97b729ec5?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Moth_900_x_450.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Moth',
     threat_level: 'Medium',
     created_at: new Date().toISOString()
@@ -112,7 +112,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Grasshopper',
     scientific_name: 'Oxya spp.',
     description: 'Defoliators that can cause severe damage to rice crops, especially during the vegetative stage. They feed on leaves, creating irregular patterns of damage.',
-    image_url: 'https://images.unsplash.com/photo-1546272989-40c92939c6c2?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Rice+Grasshopper.png?auto=format&fit=crop&q=80&w=800',
     category: 'Grasshopper',
     threat_level: 'Medium',
     created_at: new Date().toISOString()
@@ -122,7 +122,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Earwig',
     scientific_name: 'Euborellia stali',
     description: 'These nocturnal insects can be both beneficial and harmful. While they prey on some rice pests, they may also damage young rice plants.',
-    image_url: 'https://images.unsplash.com/photo-1567844768957-97881ef5d1a9?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/earwig.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Earwig',
     threat_level: 'Low',
     created_at: new Date().toISOString()
@@ -132,7 +132,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Earthworm',
     scientific_name: 'Pheretima spp.',
     description: 'Generally beneficial organisms that improve soil structure and fertility, but high populations in rice paddies can sometimes disrupt young rice roots.',
-    image_url: 'https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/41535.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Worm',
     threat_level: 'Low',
     created_at: new Date().toISOString()
@@ -142,7 +142,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Swarming Caterpillar',
     scientific_name: 'Spodoptera mauritia',
     description: 'Larvae feed voraciously on rice leaves, especially during the vegetative stage. Large populations can completely defoliate rice plants.',
-    image_url: 'https://images.unsplash.com/photo-1562911791-c7a97b729ec5?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/New-Project-40.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Moth',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -152,7 +152,7 @@ const mockPests: Pest[] = [
     common_name: 'Brown Planthopper',
     scientific_name: 'Nilaparvata lugens',
     description: 'One of the most serious rice pests in Asia. It damages plants by sucking sap and can transmit viral diseases. Large populations can cause "hopper burn" where patches of rice plants turn brown and die.',
-    image_url: 'https://images.unsplash.com/photo-1616690248364-58e5326dea56?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/IMG_4924.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Bug',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -162,7 +162,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Black Bug',
     scientific_name: 'Scotinophara coarctata',
     description: 'Both adults and nymphs suck sap from the base of the rice plant, causing yellowing and wilting. Heavy infestations can lead to "bugburn".',
-    image_url: 'https://images.unsplash.com/photo-1562907550-096d3bf9b25c?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/Frequently-Asked-Questions-About.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Beetle',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -172,7 +172,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Bee',
     scientific_name: 'Apis spp.',
     description: 'Generally beneficial insects that help with pollination of surrounding crops. They may visit rice fields for water or nectar from weeds.',
-    image_url: 'https://images.unsplash.com/photo-1559386484-97dfc0e15539?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/WJPEG-Honey-bee-Hoss-NY-No-file.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Bee',
     threat_level: 'Low',
     created_at: new Date().toISOString()
@@ -182,7 +182,7 @@ const mockPests: Pest[] = [
     common_name: 'Asiatic Rice Borer',
     scientific_name: 'Chilo suppressalis',
     description: 'Larvae bore into rice stems, causing deadhearts in vegetative stage and whiteheads in reproductive stage. A major pest in many Asian rice-growing regions.',
-    image_url: 'https://images.unsplash.com/photo-1584880640557-608513eab0a2?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/5559585.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Moth',
     threat_level: 'High',
     created_at: new Date().toISOString()
@@ -192,7 +192,7 @@ const mockPests: Pest[] = [
     common_name: 'Rice Field Ant',
     scientific_name: 'Solenopsis geminata',
     description: 'Can be both beneficial and harmful. They prey on some rice pests but may also protect and tend honeydew-producing insects like planthoppers.',
-    image_url: 'https://images.unsplash.com/photo-1611866865596-06eb7a21ca32?auto=format&fit=crop&q=80&w=800',
+    image_url: 'https://mybucket-aws02-asd.s3.us-east-1.amazonaws.com/ant-life-in-pictures.jpg?auto=format&fit=crop&q=80&w=800',
     category: 'Ant',
     threat_level: 'Low',
     created_at: new Date().toISOString()

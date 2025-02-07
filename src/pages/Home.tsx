@@ -30,7 +30,7 @@ export function Home() {
   ];
 
   const stats = [
-    { number: '99%', label: 'Accuracy Rate' },
+    { number: '80%', label: 'Accuracy Rate' },
     { number: '10K+', label: 'Pest Species' },
     { number: '24/7', label: 'Support' },
     { number: '50K+', label: 'Users' }
